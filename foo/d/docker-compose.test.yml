@@ -4,6 +4,6 @@ services:
   sut:
     command: [bash, -c, "cd /app && ./docker-cloud-test.sh"]
     environment:
-      - SOURCE_BRANCH
-    image: joelbernstein/test-docker-autotest
+      - IMAGE_NAME
+    image: ${IMAGE_NAME}
 
