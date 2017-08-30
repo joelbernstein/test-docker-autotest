@@ -7,5 +7,5 @@ services:
       - SOURCE_BRANCH
     build:
       context: .
-      dockerfile: /dockerfiles/app/Dockerfile
+      dockerfile: foo/d/Dockerfile
 
