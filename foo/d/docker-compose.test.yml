@@ -3,6 +3,8 @@ services:
 
   sut:
     command: /app/docker-cloud-test.sh
+    environment:
+      - SOURCE_BRANCH
     build:
       context: .
       dockerfile: /dockerfiles/app/Dockerfile
