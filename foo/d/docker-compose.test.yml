@@ -1,0 +1,9 @@
+version: "3"
+services:
+
+  sut:
+    command: /app/docker-cloud-test.sh
+    build:
+      context: .
+      dockerfile: /dockerfiles/app/Dockerfile
+
