@@ -2,7 +2,7 @@ version: "3"
 services:
 
   sut:
-    command: [sh, -c, "cd /app && ./docker-cloud-test.sh"]
+    command: [bash, -c, "cd /app && ./docker-cloud-test.sh"]
     environment:
       - SOURCE_BRANCH
     build:
