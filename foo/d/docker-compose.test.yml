@@ -6,6 +6,6 @@ services:
     environment:
       - SOURCE_BRANCH
     build:
-      context: .
-      dockerfile: ./Dockerfile
+      context: ../..
+      dockerfile: foo/d/Dockerfile
 
